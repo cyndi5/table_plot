@@ -9,6 +9,11 @@ def handle_click(event):
 
 
 def main():
+    parser = argparse.ArgumentParser(description='Uses Plotly Dash core to plot a CSV from Google Science Journal accelerometer readings.')
+    parser.add_argument("--file", required=True, default=None, type=str, help="path to CSV")
+    
+    args = parser.parse_args()
+    print(args.file)
     # Create a window.
     root = tk.Tk()
 
