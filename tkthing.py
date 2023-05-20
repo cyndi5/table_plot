@@ -1,19 +1,29 @@
 import argparse
+from pathlib import Path
 import tkinter as tk
 import tkinter.messagebox
 
 
 def handle_click(event):
-    # Display a message showing which button was clicked.
+    '''Display a message showing which button was clicked.'''
     tk.messagebox.showinfo("Button Clicked", "You clicked the " + event + " button.")
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Uses Plotly Dash core to plot a CSV from Google Science Journal accelerometer readings.')
-    parser.add_argument("--file", required=True, default=None, type=str, help="path to CSV")
-    
+    '''Main function'''
+
+    # Handle command-line arguments
+    parser = argparse.ArgumentParser(description='Reads list of keywords from a file.')
+    parser.add_argument("--file", required=True, default=None, type=str, help="path to keywords file")
     args = parser.parse_args()
     print(args.file)
+
+    # One-liner to read lines into an array, stripping newlines
+    lines = map(lambda x: x.strip(), Path(args.file).read_text().splitlines())
+
+    for line in lines:
+        print(f"Line: '{line}'")
+
     # Create a window.
     root = tk.Tk()
 

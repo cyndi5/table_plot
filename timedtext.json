@@ -1,0 +1,835 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  } ],
+  "wpWinPositions": [ {
+  
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 5940,
+    "segs": [ {
+      "utf8": "[There's] a lot of interesting stuff both from the\npoint of view of the content but also"
+    } ]
+  }, {
+    "tStartMs": 5940,
+    "dDurationMs": 6510,
+    "segs": [ {
+      "utf8": "the historical context between, y' know\n\"When were `for' loops invented?\". Well"
+    } ]
+  }, {
+    "tStartMs": 12450,
+    "dDurationMs": 4800,
+    "segs": [ {
+      "utf8": "that's what Algol called them but prior\nto that FORTRAN called them DO loops."
+    } ]
+  }, {
+    "tStartMs": 17250,
+    "dDurationMs": 5130,
+    "segs": [ {
+      "utf8": "And prior to that they existed in assembler.\nSo, first of all, what's the history and"
+    } ]
+  }, {
+    "tStartMs": 22380,
+    "dDurationMs": 4649,
+    "segs": [ {
+      "utf8": "what does it get you when you can do\nloops, but when do you run out of steam,"
+    } ]
+  }, {
+    "tStartMs": 27029,
+    "dDurationMs": 7201,
+    "segs": [ {
+      "utf8": "even with loops, and you have to use this\nshock! horror! Pure Mathematicians thing -"
+    } ]
+  }, {
+    "tStartMs": 34230,
+    "dDurationMs": 8280,
+    "segs": [ {
+      "utf8": "that computer scientists have to learn\nabout - recursion?! It was a real culture"
+    } ]
+  }, {
+    "tStartMs": 42510,
+    "dDurationMs": 6779,
+    "segs": [ {
+      "utf8": "shock, it really was, in the roughly\n1940s, 1950s to suddenly find"
+    } ]
+  }, {
+    "tStartMs": 49289,
+    "dDurationMs": 6601,
+    "segs": [ {
+      "utf8": "out that what the theoreticians had been\ndrivelling on about for years - about recursive"
+    } ]
+  }, {
+    "tStartMs": 55890,
+    "dDurationMs": 5790,
+    "segs": [ {
+      "utf8": "functions in mathematics - actually was of\nmassive, massive importance for computer"
+    } ]
+  }, {
+    "tStartMs": 61680,
+    "dDurationMs": 5880,
+    "segs": [ {
+      "utf8": "science. Back in the '40s and early\n'50s it was all Assembler - or a"
+    } ]
+  }, {
+    "tStartMs": 67560,
+    "dDurationMs": 3330,
+    "segs": [ {
+      "utf8": "slightly dressed-up thing called a macro\nassembler, where you can have little"
+    } ]
+  }, {
+    "tStartMs": 70890,
+    "dDurationMs": 7769,
+    "segs": [ {
+      "utf8": "routines full of, y' know, packaged\nassembler instructions which could be"
+    } ]
+  }, {
+    "tStartMs": 78659,
+    "dDurationMs": 4111,
+    "segs": [ {
+      "utf8": "called up, as and when needed. So, that\nsort of served people for quite some"
+    } ]
+  }, {
+    "tStartMs": 82770,
+    "dDurationMs": 8300,
+    "segs": [ {
+      "utf8": "time. But probably one of the first\nhigh-level languages to introduce loops"
+    } ]
+  }, {
+    "tStartMs": 91070,
+    "dDurationMs": 6070,
+    "segs": [ {
+      "utf8": "was good old FORTRAN [shows textbook]. Even though \nthat was published in '65 Fortran itself goes"
+    } ]
+  }, {
+    "tStartMs": 97140,
+    "dDurationMs": 6420,
+    "segs": [ {
+      "utf8": "back, I think, for almost ten years before\nthat. It was invented by John Backus and"
+    } ]
+  }, {
+    "tStartMs": 103560,
+    "dDurationMs": 5849,
+    "segs": [ {
+      "utf8": "a large team of people at IBM in the\n1950s. Many of you will know it. It's an"
+    } ]
+  }, {
+    "tStartMs": 109409,
+    "dDurationMs": 7500,
+    "segs": [ {
+      "utf8": "excellent language for engineering and\nscientific calculations. It is low level."
+    } ]
+  }, {
+    "tStartMs": 116909,
+    "dDurationMs": 8100,
+    "segs": [ {
+      "utf8": "I mean, when you look at the nature of a\nFORTRAN loop it's almost like doing it"
+    } ]
+  }, {
+    "tStartMs": 125009,
+    "dDurationMs": 4651,
+    "segs": [ {
+      "utf8": "in assembler - but not quite. They didn't\ncall them for loops - they called them DO loops."
+    } ]
+  }, {
+    "tStartMs": 129660,
+    "dDurationMs": 4040,
+    "segs": [ {
+      "utf8": "What I'm saying here is - you package all this\nup - where you're saying"
+    } ]
+  }, {
+    "tStartMs": 133700,
+    "dDurationMs": 3940,
+    "segs": [ {
+      "utf8": "repeat the following sequence of\ninstructions, which I've done with my"
+    } ]
+  }, {
+    "tStartMs": 137640,
+    "dDurationMs": 5670,
+    "segs": [ {
+      "utf8": "wavy lines here. Keep doing them until\nyou hit the statement with a numeric"
+    } ]
+  }, {
+    "tStartMs": 143310,
+    "dDurationMs": 7769,
+    "segs": [ {
+      "utf8": "label on it of 180. The loop back from\nthe statement labelled 180, back up to"
+    } ]
+  }, {
+    "tStartMs": 151079,
+    "dDurationMs": 5401,
+    "segs": [ {
+      "utf8": "here to increment the loop counter, which\nyou're all familiar with in languages"
+    } ]
+  }, {
+    "tStartMs": 156480,
+    "dDurationMs": 6089,
+    "segs": [ {
+      "utf8": "like C. It wasn't done, as it would\nbe in C, by saying: \"Here's my block of"
+    } ]
+  }, {
+    "tStartMs": 162569,
+    "dDurationMs": 4471,
+    "segs": [ {
+      "utf8": "stuff to be repeated it's inside these\ncurly braces\". Here you can see it's a lot"
+    } ]
+  }, {
+    "tStartMs": 167040,
+    "dDurationMs": 4259,
+    "segs": [ {
+      "utf8": "more like assembler, a lot more low-level.\nI mean there's nothing magic about \"180\"; it could"
+    } ]
+  }, {
+    "tStartMs": 171299,
+    "dDurationMs": 6481,
+    "segs": [ {
+      "utf8": "be \"72\"; it depended on your labelling\nsystem. Implicitly here, in a simple"
+    } ]
+  }, {
+    "tStartMs": 177780,
+    "dDurationMs": 4079,
+    "segs": [ {
+      "utf8": "thing like this, you'd start off [with the counter] \nat one and every time I returned back here it would"
+    } ]
+  }, {
+    "tStartMs": 181859,
+    "dDurationMs": 6600,
+    "segs": [ {
+      "utf8": "reset [the counter] to be 2, 3, 4 and so on up to\nand including 10. It's comforting for"
+    } ]
+  }, {
+    "tStartMs": 188459,
+    "dDurationMs": 3661,
+    "segs": [ {
+      "utf8": "those who were coming from assembler\ninto a higher-level language to see"
+    } ]
+  }, {
+    "tStartMs": 192120,
+    "dDurationMs": 4410,
+    "segs": [ {
+      "utf8": "something that was only slightly higher\nlevel, in sophistication, than assembler was."
+    } ]
+  }, {
+    "tStartMs": 196530,
+    "dDurationMs": 3929,
+    "segs": [ {
+      "utf8": "How did loops become more \"powerful\",\nif you like?"
+    } ]
+  }, {
+    "tStartMs": 200459,
+    "dDurationMs": 6150,
+    "segs": [ {
+      "utf8": "Well, again, even in assembler and even in\nFORTRAN, there's no reason why you"
+    } ]
+  }, {
+    "tStartMs": 206609,
+    "dDurationMs": 7231,
+    "segs": [ {
+      "utf8": "couldn't have a loop within a loop. So I\nmight have, outside of all this code, yet"
+    } ]
+  }, {
+    "tStartMs": 213840,
+    "dDurationMs": 10349,
+    "segs": [ {
+      "utf8": "another layer of DO. What shall we say:\n\"DO 200 J = 1, 20\". So, there might"
+    } ]
+  }, {
+    "tStartMs": 224189,
+    "dDurationMs": 5431,
+    "segs": [ {
+      "utf8": "be some more statements between 180 and\n200, who knows, but again, you see, a"
+    } ]
+  }, {
+    "tStartMs": 229620,
+    "dDurationMs": 6329,
+    "segs": [ {
+      "utf8": "numeric label. And can see what's\nhappening is that for every setting of J,"
+    } ]
+  }, {
+    "tStartMs": 235949,
+    "dDurationMs": 5010,
+    "segs": [ {
+      "utf8": "which will start at 1 and go up to 20,\nfor every single one of those J settings"
+    } ]
+  }, {
+    "tStartMs": 240959,
+    "dDurationMs": 5161,
+    "segs": [ {
+      "utf8": "the inner loop will be running through\nthe complete spectrum of settings of I"
+    } ]
+  }, {
+    "tStartMs": 246120,
+    "dDurationMs": 5729,
+    "segs": [ {
+      "utf8": "going from 1 to 10. So you will have 200\nlocations [that] are being affected here."
+    } ]
+  }, {
+    "tStartMs": 251849,
+    "dDurationMs": 4320,
+    "segs": [ {
+      "utf8": "Basically going through the rows and\ncolumns of a matrix. All sorts of"
+    } ]
+  }, {
+    "tStartMs": 256169,
+    "dDurationMs": 4401,
+    "segs": [ {
+      "utf8": "calculations in physics, chemistry and\nparticularly engineering just rely on"
+    } ]
+  }, {
+    "tStartMs": 260570,
+    "dDurationMs": 5349,
+    "segs": [ {
+      "utf8": "two-dimensional arrays full of numbers\n- either integers or scientific numbers"
+    } ]
+  }, {
+    "tStartMs": 265919,
+    "dDurationMs": 2091,
+    "segs": [ {
+      "utf8": "with a decimal point. and so on. Even hard-core"
+    } ]
+  }, {
+    "tStartMs": 268010,
+    "dDurationMs": 3540,
+    "segs": [ {
+      "utf8": "assembly programmers had to admit if you were\ndoing heavy scientific programming it was"
+    } ]
+  }, {
+    "tStartMs": 271550,
+    "dDurationMs": 3660,
+    "segs": [ {
+      "utf8": "nice to be a little bit more abstract\nand to have this sort of facility"
+    } ]
+  }, {
+    "tStartMs": 275210,
+    "dDurationMs": 7769,
+    "segs": [ {
+      "utf8": "available to you. Now you might say: \"Well,\nwhat came along to spoil the party then ?\""
+    } ]
+  }, {
+    "tStartMs": 282979,
+    "dDurationMs": 5371,
+    "segs": [ {
+      "utf8": "or \"How did people realize that this was\nwonderful but not quite enough?\" "
+    } ]
+  }, {
+    "tStartMs": 288350,
+    "dDurationMs": 3960,
+    "segs": [ {
+      "utf8": "The compiler of course has got to be\ntolerant and has got to be capable of"
+    } ]
+  }, {
+    "tStartMs": 292310,
+    "dDurationMs": 5730,
+    "segs": [ {
+      "utf8": "compiling nested DO loops correctly but\nhow deep would it let you nest them?"
+    } ]
+  }, {
+    "tStartMs": 298040,
+    "dDurationMs": 4830,
+    "segs": [ {
+      "utf8": "Well, I'm guessing, I would suspect that\nthe early FORTRAN compilers probably"
+    } ]
+  }, {
+    "tStartMs": 302870,
+    "dDurationMs": 5100,
+    "segs": [ {
+      "utf8": "wouldn't allow you to go more than about\n10 deep, maximum. And I think you and I"
+    } ]
+  }, {
+    "tStartMs": 307970,
+    "dDurationMs": 4290,
+    "segs": [ {
+      "utf8": "Sean have just been looking up what are the\ncurrent limits in C?  I seem to remember"
+    } ]
+  }, {
+    "tStartMs": 312260,
+    "dDurationMs": 5850,
+    "segs": [ {
+      "utf8": "the earliest `gcc' was something like 32\nBut Ithink we looked up this ... some C++"
+    } ]
+  }, {
+    "tStartMs": 318110,
+    "dDurationMs": 6540,
+    "segs": [ {
+      "utf8": "nowadays allows you to do nested loops\n256 deep! And, of course, there are"
+    } ]
+  }, {
+    "tStartMs": 324650,
+    "dDurationMs": 5430,
+    "segs": [ {
+      "utf8": "multi-dimensional problems that might\nactually need that, because it it doesn't"
+    } ]
+  }, {
+    "tStartMs": 330080,
+    "dDurationMs": 4680,
+    "segs": [ {
+      "utf8": "take much knowledge of higher maths to\nrealize if you've got a loop within a loop"
+    } ]
+  }, {
+    "tStartMs": 334760,
+    "dDurationMs": 5339,
+    "segs": [ {
+      "utf8": "the outer loop goes around n times; the\ninner loop is going around n times, you"
+    } ]
+  }, {
+    "tStartMs": 340099,
+    "dDurationMs": 5311,
+    "segs": [ {
+      "utf8": "are then coping with an n-squared\nproblem. If you put the third loop inside"
+    } ]
+  }, {
+    "tStartMs": 345410,
+    "dDurationMs": 5670,
+    "segs": [ {
+      "utf8": "the other two you're coping with a cubic,\nthree-dimensional, problem. So what we're"
+    } ]
+  }, {
+    "tStartMs": 351080,
+    "dDurationMs": 6000,
+    "segs": [ {
+      "utf8": "saying is all these multi-dimensional\npolynomial-going-on-exponential problems,"
+    } ]
+  }, {
+    "tStartMs": 357080,
+    "dDurationMs": 4740,
+    "segs": [ {
+      "utf8": "that come up quite naturally, you can\ncope with them in nested for-loops so"
+    } ]
+  }, {
+    "tStartMs": 361820,
+    "dDurationMs": 7920,
+    "segs": [ {
+      "utf8": "long as they don't need to be more than\npower-32 or power-256 or whatever it is. "
+    } ]
+  }, {
+    "tStartMs": 369740,
+    "dDurationMs": 3840,
+    "segs": [ {
+      "utf8": "And you think, well, that should be enough for\nanybody! There's these multi-dimensional"
+    } ]
+  }, {
+    "tStartMs": 373580,
+    "dDurationMs": 5130,
+    "segs": [ {
+      "utf8": "problems you can just do them by nesting\n`for' loops and surely [a depth of] 256 is"
+    } ]
+  }, {
+    "tStartMs": 378710,
+    "dDurationMs": 4790,
+    "segs": [ {
+      "utf8": "enough for anybody? What kind of problem\nwouldn't it be enough for? Well, a lot of"
+    } ]
+  }, {
+    "tStartMs": 383500,
+    "dDurationMs": 7479,
+    "segs": [ {
+      "utf8": "theoretical computer scientists of my\nknowledge amused me greatly when - those of"
+    } ]
+  }, {
+    "tStartMs": 390979,
+    "dDurationMs": 6901,
+    "segs": [ {
+      "utf8": "them that will own up to this - back in\nthe 60s. People started going to lectures"
+    } ]
+  }, {
+    "tStartMs": 397880,
+    "dDurationMs": 4330,
+    "segs": [ {
+      "utf8": "from mathematicians, theoreticians, people concerned"
+    } ]
+  }, {
+    "tStartMs": 402210,
+    "dDurationMs": 6630,
+    "segs": [ {
+      "utf8": "with \"Godel Computability\" and so on. And\nof course, those sort of people, were very"
+    } ]
+  }, {
+    "tStartMs": 408840,
+    "dDurationMs": 5670,
+    "segs": [ {
+      "utf8": "familiar indeed, at a mathematical level,\nwith Ackermann's function. Now, as you know -"
+    } ]
+  }, {
+    "tStartMs": 414510,
+    "dDurationMs": 5850,
+    "segs": [ {
+      "utf8": "you and I - we've done that one: \n\u003e\u003e Sean: Was that \"The most difficult ... ?\"\n\u003e\u003e DFB:  \"The most difficult number to compute, question mark\""
+    } ]
+  }, {
+    "tStartMs": 420360,
+    "dDurationMs": 6210,
+    "segs": [ {
+      "utf8": "\u003cAckermann video insert\u003e\n\"We set this going four weeks ago\nnearly now the first few are vanished ...\"\n\u003c/Ackermann video insert\u003e"
+    } ]
+  }, {
+    "tStartMs": 426570,
+    "dDurationMs": 4800,
+    "segs": [ {
+      "utf8": "So what made it so difficult?\nwell you write down Ackermann's function and"
+    } ]
+  }, {
+    "tStartMs": 431370,
+    "dDurationMs": 8250,
+    "segs": [ {
+      "utf8": "it very clearly ends up with routines\ncalling themselves recursively in a very"
+    } ]
+  }, {
+    "tStartMs": 439620,
+    "dDurationMs": 5220,
+    "segs": [ {
+      "utf8": "very complicated way. Now I think your\naverage sort of engineer would be happy"
+    } ]
+  }, {
+    "tStartMs": 444840,
+    "dDurationMs": 4320,
+    "segs": [ {
+      "utf8": "to say that there's this thing called `factorial'\nwhich is 5 times 4 times 3 times 2 times 1,"
+    } ]
+  }, {
+    "tStartMs": 449160,
+    "dDurationMs": 4620,
+    "segs": [ {
+      "utf8": "or whatever. And you could do that in a\nloop as well as doing this fancy"
+    } ]
+  }, {
+    "tStartMs": 453780,
+    "dDurationMs": 7440,
+    "segs": [ {
+      "utf8": "recursion thing, but a lot of\ntheoreticians admitted to me they saw a"
+    } ]
+  }, {
+    "tStartMs": 461220,
+    "dDurationMs": 7950,
+    "segs": [ {
+      "utf8": "Ackermann's function and said: \"I could try that\nout in FORTRAN !\". Now what they perhaps"
+    } ]
+  }, {
+    "tStartMs": 469170,
+    "dDurationMs": 3180,
+    "segs": [ {
+      "utf8": "didn't realize - but it became famous by 1960 - is:"
+    } ]
+  }, {
+    "tStartMs": 472350,
+    "dDurationMs": 5610,
+    "segs": [ {
+      "utf8": "FORTRAN is wonderful, but original\nFORTRAN did not do user-level recursion"
+    } ]
+  }, {
+    "tStartMs": 477960,
+    "dDurationMs": 4680,
+    "segs": [ {
+      "utf8": "You could write a thing called ACK.\nYou could actually get it to call itself"
+    } ]
+  }, {
+    "tStartMs": 482640,
+    "dDurationMs": 4950,
+    "segs": [ {
+      "utf8": "in FORTRAN. But you might have been\nexpecting that every time it called"
+    } ]
+  }, {
+    "tStartMs": 487590,
+    "dDurationMs": 5310,
+    "segs": [ {
+      "utf8": "itself it would lay out a data area for\neach recursive call they're called \"stack"
+    } ]
+  }, {
+    "tStartMs": 492900,
+    "dDurationMs": 3900,
+    "segs": [ {
+      "utf8": "frames\" - we know that now. You get lots of\nstack frames, one on top of another and"
+    } ]
+  }, {
+    "tStartMs": 496800,
+    "dDurationMs": 4080,
+    "segs": [ {
+      "utf8": "as you come back through the recursion\nthey're deleted and thrown away and you"
+    } ]
+  }, {
+    "tStartMs": 500880,
+    "dDurationMs": 5160,
+    "segs": [ {
+      "utf8": "climb back into your main program.\nFORTRAN doesn't do that. It sets"
+    } ]
+  }, {
+    "tStartMs": 506040,
+    "dDurationMs": 4620,
+    "segs": [ {
+      "utf8": "aside one stack frame. You keep calling\nyourself recursively it just tramples"
+    } ]
+  }, {
+    "tStartMs": 510660,
+    "dDurationMs": 4950,
+    "segs": [ {
+      "utf8": "in its muddy gumboots over all your\ndata area and you end up with total"
+    } ]
+  }, {
+    "tStartMs": 515610,
+    "dDurationMs": 4770,
+    "segs": [ {
+      "utf8": "garbage. It no more gives you values of the\nAckermann function than fly to the moon!"
+    } ]
+  }, {
+    "tStartMs": 520380,
+    "dDurationMs": 6990,
+    "segs": [ {
+      "utf8": "And people said: \"I then realized the\nimportance of having user-level"
+    } ]
+  }, {
+    "tStartMs": 527370,
+    "dDurationMs": 4770,
+    "segs": [ {
+      "utf8": "recursion, in programming languages, to\ncope with those really hard problems"
+    } ]
+  }, {
+    "tStartMs": 532140,
+    "dDurationMs": 4290,
+    "segs": [ {
+      "utf8": "that fell outside nested for-loops\".\nAlgol was famous in that its routines"
+    } ]
+  }, {
+    "tStartMs": 536430,
+    "dDurationMs": 5010,
+    "segs": [ {
+      "utf8": "could call themselves recursively and\ncould get the right answer and, for"
+    } ]
+  }, {
+    "tStartMs": 541440,
+    "dDurationMs": 6030,
+    "segs": [ {
+      "utf8": "limited low-order values of Ackermann's\nfunction - very slow, very slow indeed - but"
+    } ]
+  }, {
+    "tStartMs": 547470,
+    "dDurationMs": 4050,
+    "segs": [ {
+      "utf8": "it would come out with the right answer.\n\u003e\u003e Sean: Is there any need to think of an example of a"
+    } ]
+  }, {
+    "tStartMs": 551520,
+    "dDurationMs": 4440,
+    "segs": [ {
+      "utf8": "problem, or program, because Ackermann\nfeels to me like it's the test-bed."
+    } ]
+  }, {
+    "tStartMs": 555960,
+    "dDurationMs": 4020,
+    "segs": [ {
+      "utf8": "You know, when you're testing out a\nmotor-car you might take it on the track"
+    } ]
+  }, {
+    "tStartMs": 559980,
+    "dDurationMs": 3510,
+    "segs": [ {
+      "utf8": "and see how fast it can go.\nBut in day-to-day life that car might"
+    } ]
+  }, {
+    "tStartMs": 563490,
+    "dDurationMs": 5580,
+    "segs": [ {
+      "utf8": "only get half that speed. What's the\nreal-world kind of equivalent? Is there"
+    } ]
+  }, {
+    "tStartMs": 569070,
+    "dDurationMs": 5160,
+    "segs": [ {
+      "utf8": "such a thing?\n\u003e\u003e DFB: Real world equivalent?\n\u003e\u003e Sean: ... of something that might need to use"
+    } ]
+  }, {
+    "tStartMs": 574230,
+    "dDurationMs": 4680,
+    "segs": [ {
+      "utf8": "recursion ... ?\n\u003e\u003e DFB: ... of that complexity? Not many things"
+    } ]
+  }, {
+    "tStartMs": 578910,
+    "dDurationMs": 5730,
+    "segs": [ {
+      "utf8": "is the answer to that. I mean, yes, it's\ntrue that Ackermann, as you know, was David"
+    } ]
+  }, {
+    "tStartMs": 584640,
+    "dDurationMs": 4290,
+    "segs": [ {
+      "utf8": "Hilbert's research student. And the\nchallenge was on to find something that"
+    } ]
+  }, {
+    "tStartMs": 588930,
+    "dDurationMs": 6660,
+    "segs": [ {
+      "utf8": "was so innately recursive that - remember\nit was \"generally recursive\", they called it -"
+    } ]
+  }, {
+    "tStartMs": 595590,
+    "dDurationMs": 4560,
+    "segs": [ {
+      "utf8": "as opposed to \"primitive recursive\". And\nsimple things like factorial and indeed"
+    } ]
+  }, {
+    "tStartMs": 600150,
+    "dDurationMs": 5490,
+    "segs": [ {
+      "utf8": "indeed Fibonacci, are primitive recursive.\nSo I think you're right that you really"
+    } ]
+  }, {
+    "tStartMs": 605640,
+    "dDurationMs": 3900,
+    "segs": [ {
+      "utf8": "are just making the point that\neventually there are things that will"
+    } ]
+  }, {
+    "tStartMs": 609540,
+    "dDurationMs": 8000,
+    "segs": [ {
+      "utf8": "kill you. I think the question in the\nmiddle is: \"Is there something out there -"
+    } ]
+  }, {
+    "tStartMs": 617540,
+    "dDurationMs": 6370,
+    "segs": [ {
+      "utf8": "pieces of program you need to write -\nwhere non-trivial recursion, in a sense,"
+    } ]
+  }, {
+    "tStartMs": 623910,
+    "dDurationMs": 5730,
+    "segs": [ {
+      "utf8": "is needed but not quite to the\nhorrendous degree that Ackermann did. And the"
+    } ]
+  }, {
+    "tStartMs": 629640,
+    "dDurationMs": 8100,
+    "segs": [ {
+      "utf8": "answer is:  \"Yes, compilers is where it hit\npeople\".  Because although early FORTRAN"
+    } ]
+  }, {
+    "tStartMs": 637740,
+    "dDurationMs": 5340,
+    "segs": [ {
+      "utf8": "did not provide user-level recursion, for\nyou and me, nevertheless John Backus and"
+    } ]
+  }, {
+    "tStartMs": 643080,
+    "dDurationMs": 4480,
+    "segs": [ {
+      "utf8": "his team implemented it in the middle\n1950s I think at IBM."
+    } ]
+  }, {
+    "tStartMs": 647560,
+    "dDurationMs": 5850,
+    "segs": [ {
+      "utf8": "And Backus wrote articles afterwards\nbasically saying: \"We didn't know enough"
+    } ]
+  }, {
+    "tStartMs": 653410,
+    "dDurationMs": 3930,
+    "segs": [ {
+      "utf8": "about recursion and even though we\ndidn't provide it for the users of our"
+    } ]
+  }, {
+    "tStartMs": 657340,
+    "dDurationMs": 4740,
+    "segs": [ {
+      "utf8": "language, boy did we need it in the\ncompiler! And"
+    } ]
+  }, {
+    "tStartMs": 662080,
+    "dDurationMs": 6110,
+    "segs": [ {
+      "utf8": "we ended up inventing it in all but name\"\nThe syntactic structures of what is"
+    } ]
+  }, {
+    "tStartMs": 668190,
+    "dDurationMs": 4960,
+    "segs": [ {
+      "utf8": "legal, in a language, even at the level\njust of arithmetic statements can be"
+    } ]
+  }, {
+    "tStartMs": 673150,
+    "dDurationMs": 4350,
+    "segs": [ {
+      "utf8": "quite recursive. Because you end up with\nbrackets within brackets within brackets"
+    } ]
+  }, {
+    "tStartMs": 677500,
+    "dDurationMs": 5339,
+    "segs": [ {
+      "utf8": "all with a multiplier outside. And which\norder do you do the brackets in? And, you"
+    } ]
+  }, {
+    "tStartMs": 682839,
+    "dDurationMs": 5701,
+    "segs": [ {
+      "utf8": "know, how how many levels of bracket\nnesting can you have. And if you don't"
+    } ]
+  }, {
+    "tStartMs": 688540,
+    "dDurationMs": 6120,
+    "segs": [ {
+      "utf8": "get things sorted out correctly then\nyou'll get the wrong answer. But once again"
+    } ]
+  }, {
+    "tStartMs": 694660,
+    "dDurationMs": 6300,
+    "segs": [ {
+      "utf8": "the problem could be that your users\nwould come up to you and present you"
+    } ]
+  }, {
+    "tStartMs": 700960,
+    "dDurationMs": 5430,
+    "segs": [ {
+      "utf8": "with a problem just designed to test out\nyour compiler, and whether it was robust"
+    } ]
+  }, {
+    "tStartMs": 706390,
+    "dDurationMs": 4020,
+    "segs": [ {
+      "utf8": "enough to be able to cope with a high\ndegree of nesting even just in"
+    } ]
+  }, {
+    "tStartMs": 710410,
+    "dDurationMs": 8130,
+    "segs": [ {
+      "utf8": "arithmetic statements. So by 1960 in\nAlgol, yeah, the there were enough users, at"
+    } ]
+  }, {
+    "tStartMs": 718540,
+    "dDurationMs": 5010,
+    "segs": [ {
+      "utf8": "the user level, who could see that a\nmodicum of recursion, perhaps more"
+    } ]
+  }, {
+    "tStartMs": 723550,
+    "dDurationMs": 4980,
+    "segs": [ {
+      "utf8": "complicated than factorial but not quite\nup to full Ackermann capabilities would be"
+    } ]
+  }, {
+    "tStartMs": 728530,
+    "dDurationMs": 7410,
+    "segs": [ {
+      "utf8": "very nice indeed to have within your language. \n\u003ctrailer for EXTRA BITS video\u003e\nAgain referring back to that"
+    } ]
+  }, {
+    "tStartMs": 735940,
+    "dDurationMs": 5370,
+    "segs": [ {
+      "utf8": "original video, I had a lot of really\ninteresting mail from various people who"
+    } ]
+  }, {
+    "tStartMs": 741310,
+    "dDurationMs": 7110,
+    "segs": [ {
+      "utf8": "said to me: \"OK, you said that this is an\ninnately recursive problem and it just"
+    } ]
+  }, {
+    "tStartMs": 748420,
+    "dDurationMs": 4580,
+    "segs": [ {
+      "utf8": "had to have general recursion capabilities? \nWell I .... \"\n\u003c/end of trailer\u003e"
+    } ]
+  } ]
+}

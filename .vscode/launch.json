@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "args": ["--file", "foo"],
+            "args": ["--file", "keywords.txt"],
             "console": "integratedTerminal",
             "justMyCode": true
         }
